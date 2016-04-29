@@ -35,10 +35,17 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'mysql2'
+gem "better_errors"
+gem "binding_of_caller"
+gem 'simple_form'
+gem 'factory_girl_rails'
+gem 'rspec-rails', '~> 3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem "letter_opener"
+  gem 'pry-rails'
 end
 
 group :development do
