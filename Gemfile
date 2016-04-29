@@ -41,12 +41,14 @@ gem 'simple_form'
 gem 'factory_girl_rails'
 gem 'rspec-rails', '~> 3.0'
 gem 'country_select'
+gem 'activeadmin', '~> 1.0.0.pre2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem "letter_opener"
   gem 'pry-rails'
+  gem "bullet"
 end
 
 group :development do
